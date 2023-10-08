@@ -4,7 +4,18 @@ import AVTR1 from '../../assets/avatar1.jpg'
 import AVTR2 from '../../assets/avatar2.jpg'
 import AVTR3 from '../../assets/avatar3.jpg'
 import AVTR4 from '../../assets/avatar4.jpg'
-import { useState } from 'react'
+
+
+// import Swiper core and required modules
+import {  Navigation, Pagination,} from 'swiper/modules';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
 
 
 const data= [
@@ -36,11 +47,18 @@ const Testimonials = () => {
       <h5>Review from Client</h5>
       <h2> Testimonials </h2>
 
-      <div className="container testimonials_container">
+      <Swiper className="container testimonials_container"
+        modules={[Navigation, Pagination,]}
+        spaceBetween={40}
+        slidesPerView={1}
+        navigation
+        pagination={{ clickable: true }}
+        
+      >
           { 
           data.map(({avatar, name, review}, index )=>{ 
           return(
-            <article key={index} className='testimonial'>
+            <SwiperSlide key={index} className='testimonial'>
             <div className='client_avatar'>
               <img src={avatar} alt="Avatar One" />
             </div>
@@ -48,12 +66,12 @@ const Testimonials = () => {
               <small className='client_review'>
                 {review}
               </small>
-        </article>
+        </SwiperSlide>
           )
         })
         }
            
-      </div>
+      </Swiper>
     </section>
   )
 }
