@@ -23,24 +23,32 @@ const About = () => {
               <div className="about_cards">
                 <article className='about_card'>
                     <FaAward className='about_icon'/>
-                    <h5>Experience</h5>
-                    <small> 3+ Years Working</small>
+                    <h5>Education</h5>
+                    <small> University of Huddersfield, UK</small>
                 </article>
 
                 <article className='about_card'>
                     <FiUsers className='about_icon'/>
-                    <h5>Clients</h5>
-                    <small> 200+ Worldwide</small>
+                    <h5>Year of Study</h5>
+                    <small> Second Year Student</small>
                 </article>
 
                 <article className='about_card'>
                     <VscFolderLibrary className='about_icon'/>
-                    <h5>Projects</h5>
-                    <small> 100+ Completed Projects</small>
+                    <h5>Course</h5>
+                    <small> Web programming with Cyber Security BSC</small>
                 </article>
               </div>
-
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, commodi mollitia voluptatibus voluptas recusandae perferendis quae soluta quo reprehenderit sit ea, enim minima dicta exercitationem? Minima, nisi corrupti? Explicabo, molestias?</p>
+                
+                <h4>Hi there!</h4>   
+                <p> My name is Bence Nyitrai,
+                 I'am a Web programming with Cybersecurity student in University of Huddersfield UK.
+                  I've been working in the several projects since i have started my educations.
+                   <br/>During that time, I've gained experience in Front-end development.
+                    Through my projects work, I strive to perfection, and I'm always excited to take on new challenges and opportunities.
+                    <br/>If you're interested in collaborating or just want to say hello, feel free to contact with me.
+                      Thanks for visiting my portfolio, and I look forward to connecting with you soon!
+                  </p>
               <a href="#contact" className='btn btn-primary'> Let's Talk</a>
           </div>
       </div>

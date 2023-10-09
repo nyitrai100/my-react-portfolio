@@ -41,7 +41,13 @@ body{
     background-image: url(../src/assets/bg-texture.png);
 }
 
-
+.main_container{
+    margin: 5%;
+    padding-top: 0.2%;
+    padding-bottom: 2%;
+    background-color: var(--color-bg-variant);
+    border-radius: 1%;
+}
 .container{
     width: var(--container-width-lg);
     margin: 0 auto;
