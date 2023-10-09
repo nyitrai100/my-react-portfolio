@@ -44,3 +44,25 @@ nav a.active{
     font-size: 0.9rem;
     /* padding-left: 3px; */
 }
+
+
+/* Media queries For medium Devices */
+
+@media screen and (max-width: 1024px) {
+    nav{
+        flex-direction: row; 
+       
+    }
+    /* .nav-title{
+        padding-left: -13px;
+    } */
+}
+/* Media queries For medium Devices */
+
+/* @media screen and (max-width: 615px) {
+    nav{
+        flex-direction: ;
+       
+       
+    }
+} */

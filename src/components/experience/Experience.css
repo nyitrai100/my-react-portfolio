@@ -40,6 +40,10 @@
     color: var(--color-primary)
 }
 
+.extra-margin{
+    margin-bottom:30px;
+}
+
 
 
 /* Media queries For medium Devices */

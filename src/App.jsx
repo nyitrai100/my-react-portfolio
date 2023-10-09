@@ -54,7 +54,7 @@ const App = () => {
       {activeComponent === 'home' && <Header />}
       {activeComponent === 'about' && <About />}
       {activeComponent === 'experience' && <Experience />}
-      {activeComponent === 'services' && <Services />}
+      {/* {activeComponent === 'services' && <Services />} */}
       {activeComponent === 'portfolio' && <Portfolio />}
       {activeComponent === 'testimonials' && <Testimonials />}
       {activeComponent === 'contact' &&  <Contact /> }

@@ -1,6 +1,23 @@
 import React from 'react'
 import './Experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
+import{AiOutlineHtml5} from 'react-icons/ai'
+import{FaCss3Alt} from 'react-icons/fa'
+import{TbBrandJavascript} from 'react-icons/tb'
+import{FaBootstrap} from 'react-icons/fa'
+import{SiTailwindcss} from 'react-icons/si'
+import{BiLogoWordpress} from 'react-icons/bi'
+import{SiWebflow} from 'react-icons/si'
+import{FaReact} from 'react-icons/fa'
+import{TbBrandNextjs} from 'react-icons/tb'
+import{BiLogoNodejs} from 'react-icons/bi'
+import{BiLogoMongodb} from 'react-icons/bi'
+import{LiaPhp} from 'react-icons/lia'
+import{GrMysql} from 'react-icons/gr'
+import{SiMicrosoftexcel} from 'react-icons/si'
+import{FaImages} from 'react-icons/fa'
+import{FiPackage} from 'react-icons/fi'
+
 
 const Experience = () => {
   return (
@@ -12,45 +29,57 @@ const Experience = () => {
         <h3>Frontend Development</h3>
         <div className="experience_content">
             <article className='experience_details'>
-                  <BsPatchCheckFill className='experience_details-icon'/>
+                  <AiOutlineHtml5 className='experience_details-icon'/>
                   <div>
                   <h4>HTML</h4>
-                  <small className='text-light'>Experienced</small>
                   </div>
             </article>
             <article className='experience_details'>
-                  <BsPatchCheckFill className='experience_details-icon'/>
+                  <FaCss3Alt className='experience_details-icon'/>
                   <div>
                     <h4>CSS</h4>
-                    <small className='text-light'>Intermediate</small>
                   </div>
             </article>
             <article className='experience_details'>
-                  <BsPatchCheckFill className='experience_details-icon'/>
+                  <TbBrandJavascript className='experience_details-icon'/>
                 <div>
                   <h4>Javascript</h4>
-                  <small className='text-light'>Experienced</small>
                 </div>
             </article>
             <article className='experience_details'>
-                  <BsPatchCheckFill className='experience_details-icon'/>
+                  <FaBootstrap className='experience_details-icon'/>
                   <div>
                   <h4>Bootstrap</h4>
-                  <small className='text-light'>Experienced</small>
                   </div>
             </article>
             <article className='experience_details'>
-                  <BsPatchCheckFill className='experience_details-icon'/>
+                  <SiTailwindcss className='experience_details-icon'/>
                   <div>
                   <h4>Tailwind</h4>
-                  <small className='text-light'>Experienced</small>
                   </div>
             </article>
             <article className='experience_details'>
-                  <BsPatchCheckFill className='experience_details-icon'/>
+                  <BiLogoWordpress className='experience_details-icon'/>
+                  <div>
+                  <h4>WordPress</h4>
+                  </div>
+            </article>
+            <article className='experience_details'>
+                  <SiWebflow className='experience_details-icon'/>
+                  <div>
+                  <h4>WebFlow</h4>
+                  </div>
+            </article>
+            <article className='experience_details'>
+                  <FaReact className='experience_details-icon'/>
                   <div>
                   <h4>React</h4>
-                  <small className='text-light'>Experienced</small>
+                  </div>
+            </article>
+            <article className='experience_details'>
+                  <TbBrandNextjs className='experience_details-icon'/>
+                  <div>
+                  <h4>NextJS</h4>
                   </div>
             </article>
         </div>
@@ -60,42 +89,70 @@ const Experience = () => {
       <h3>Backend Development</h3>
         <div className="experience_content">
             <article className='experience_details'>
-                  <BsPatchCheckFill className='experience_details-icon'/>
+                  <BiLogoNodejs className='experience_details-icon'/>
                 <div>
                    <h4>NodeJS</h4>
-                  <small className='text-light'>Experienced</small>
+                </div>
+            </article>
+            <article className='experience_details'>
+                  <BiLogoMongodb className='experience_details-icon'/>
+                 <div>
+                 <h4>MongoDB</h4>
+                 </div>
+            </article>
+            <article className='experience_details'>
+                  <LiaPhp className='experience_details-icon'/>
+                  <div>
+                  <h4>PHP</h4>
+                  </div>
+            </article>
+            <article className='experience_details'>
+                  <GrMysql className='experience_details-icon'/>
+                 <div>
+                 <h4>MySQL</h4>
+                 </div>
+            </article>
+        </div>
+      </div>
+
+      <div className="experience_backend extra-margin">
+      <h3>Data Analysis</h3>
+        <div className="experience_content">
+            <article className='experience_details'>
+                  <SiMicrosoftexcel className='experience_details-icon'/>
+                <div>
+                   <h4>Excel</h4>
                 </div>
             </article>
             <article className='experience_details'>
                   <BsPatchCheckFill className='experience_details-icon'/>
-                 <div>
-                 <h4>MongoDB</h4>
-                  <small className='text-light'>Intermediate</small>
-                 </div>
+                <div>
+                   <h4>R</h4>
+                </div>
             </article>
-            <article className='experience_details'>
-                  <BsPatchCheckFill className='experience_details-icon'/>
-                  <div>
-                  <h4>PHP</h4>
-                  <small className='text-light'>Experienced</small>
-                  </div>
-            </article>
-            <article className='experience_details'>
-                  <BsPatchCheckFill className='experience_details-icon'/>
-                 <div>
-                 <h4>MySQL</h4>
-                  <small className='text-light'>Experienced</small>
-                 </div>
-            </article>
-            <article className='experience_details'>
-                  <BsPatchCheckFill className='experience_details-icon'/>
-                  <div>
-                  <h4>Python</h4>
-                  <small className='text-light'>Experienced</small>
-                  </div>
-            </article>
+           
         </div>
       </div>
+
+      <div className="experience_backend extra-margin">
+      <h3>Cyber Security</h3>
+        <div className="experience_content">
+            <article className='experience_details'>
+                  <FiPackage className='experience_details-icon'/>
+                <div>
+                   <h4>Packet Tracer</h4>
+                </div>
+            </article>
+            <article className='experience_details'>
+                  <FaImages className='experience_details-icon'/>
+                <div>
+                   <h4>FTK Imager</h4>
+                </div>
+            </article>
+           
+        </div>
+      </div>
+
     </div>
     </section>
   )

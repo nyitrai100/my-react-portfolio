@@ -53,9 +53,9 @@ const Nav = ({ onNavClick }) => {
         
         <p className="nav-title" style={{paddingLeft: '13px'}} >  <BiBook />  Skills  </p>
       </a>
-      <a href="#services" onClick={() => handleNavClick('#services')} className={activeNav === '#services' ? 'active' : ''}>
+      {/* <a href="#services" onClick={() => handleNavClick('#services')} className={activeNav === '#services' ? 'active' : ''}>
         <p className="nav-title">  <RiServiceLine />  Services  </p>
-      </a>
+      </a> */}
       <a href="#portfolio" onClick={() => handleNavClick('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}>
         <p className="nav-title"> < LuGalleryThumbnails/> Portfolio  </p>
       </a>
