@@ -1,56 +1,71 @@
 import React from 'react'
 import './Portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import Video from '../../assets/antique-video.mp4'
+import Video2 from '../../assets/Untitled-2.mp4'
+import Video3 from '../../assets/real-estate-video.mp4'
+import Video4 from '../../assets/Scalculator.mp4'
+import Video5 from '../../assets/Sgame.mp4'
+import Video6 from '../../assets/drum-kit.mp4'
+import Video7 from '../../assets/QR.mp4'
 
 
 const data = [
   {
     id: 1,
-    img: IMG1,
-    title: "Crypto currency Dashboard & Financial visualization",
-    github: 'https://github.com',
-    demo: 'https://dribble.com'
+    video: Video,
+    title: "Antique website",
+    description: 'A business portfolio website for an Antique seller.',
+    github: 'https://github.com/nyitrai100/1.website-with-html-css-Jquery',
+    demo: 'https://serene-marshmallow-150d24.netlify.app/?fbclid=IwAR2evYV3m4Tzx0yBR9VETzMhBz2a1x96E1MvwW_fBZbmNuVVtR9EwJZIlic'
   },
   {
     id: 2,
-    img: IMG2,
-    title: "title2",
-    github: 'https://github.com',
-    demo: 'https://dribble.com'
+    video: Video2,
+    title: "JS Calculator",
+    description: 'Compound Investment Calculator for Disruptivesocial.',
+    github: 'https://github.com/nyitrai100/investment-calc-master2/blob/main/index.html',
+    demo: 'https://www.mascap.group'
   },
   {
     id: 3,
-    img: IMG3,
-    title: "title3",
-    github: 'https://github.com',
-    demo: 'https://dribble.com'
+    video: Video3,
+    title: "Real-estate website",
+    description: 'My first bigger project with University',
+    github: '',
+    demo: ''
   },
   {
     id: 4,
-    img: IMG4,
-    title: "title4",
-    github: 'https://github.com',
-    demo: 'https://dribble.com'
+    video: Video4,
+    title: "Saving Calculator",
+    description: 'Calculator from my Ongoing Project',
+    github: 'https://github.com/nyitrai100/John-s-calculator',
+    demo: ''
   },
   {
     id: 5,
-    img: IMG5,
-    title: "title5",
-    github: 'https://github.com',
-    demo: 'https://dribble.com'
+    video: Video5,
+    title: "Simon Game Challenge",
+    description: 'Simon Game with JS',
+    github: 'https://github.com/nyitrai100/Udemy/tree/main/web%20development/Javascript/Simon%20Game%20Challenge%20Starting%20Files',
+    demo: ''
   },
   {
     id: 6,
-    img: IMG6,
-    title: "title6",
-    github: 'https://github.com',
-    demo: 'https://dribble.com'
-  }
+    video: Video6,
+    title: "Drum-kit",
+    description: 'Drum-kit with JS',
+    github: 'https://github.com/nyitrai100/Udemy/tree/main/web%20development/Javascript/Drum%20Kit%20Starting%20Files',
+    demo: ''
+  },
+  {
+    id: 7,
+    video: Video7,
+    title: "QR Code Generator",
+    description: 'Generate a QR code with an URL.',
+    github: 'https://github.com/nyitrai100/Udemy/tree/main/web%20development/backend/2.4%20QR%20Code%20Project',
+    demo: ''
+  },
 ]
 
 const Portfolio = () => {
@@ -60,77 +75,22 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <div className='container portfolio_container'>
       {
-        data.map(({id, img, title, github, demo})=> {
+        data.map(({id, video, title, description, github, demo})=> {
           return(
             <article key={id} className='portfolio_item'>
             <div className="portfolio_item-image">
-            <img src={img} alt={title} />
+            <video src={video} width={'100%'} alt={title} autoPlay loop muted />
             </div>
-              <h3> {title}</h3>
+              <h3 className='title'> {title}</h3>
+              <p className='description-margin-bottom'> {description}</p>
               <div className="portfolio_item-cta">
-              <a href={github} className='btn'  target='blank'> Github</a>
-              <a href={demo} className='btn btn-primary' target='blank'> Live Demo</a>
+              {github && <a href={github} className='btn'  target='blank'> Github</a>}
+              {demo && <a href={demo} className='btn btn-primary' target='blank'> Live Demo</a>}
               </div>
           </article>
           )
         })
       }
-
-      {/* <article className='portfolio_item'>
-        <div className="portfolio_item-image">
-        <img src={IMG2} alt="" />
-        </div>
-          <h3> This is a portfolio item title</h3>
-          <div className="portfolio_item-cta">
-          <a href="https://github.com" className='btn'  target='blank'> Github</a>
-          <a href="https:/dribbble.com/Alien_pixels" className='btn btn-primary' target='blank'> Live Demo</a>
-          </div>
-      </article>
-
-      <article className='portfolio_item'>
-        <div className="portfolio_item-image">
-        <img src={IMG3} alt="" />
-        </div>
-          <h3> This is a portfolio item title</h3>
-          <div className="portfolio_item-cta">
-          <a href="https://github.com" className='btn'  target='blank'> Github</a>
-          <a href="https:/dribbble.com/Alien_pixels" className='btn btn-primary' target='blank'> Live Demo</a>
-          </div>
-      </article>
-
-      <article className='portfolio_item'>
-        <div className="portfolio_item-image">
-        <img src={IMG4} alt="" />
-        </div>
-          <h3> This is a portfolio item title</h3>
-          <div className="portfolio_item-cta">
-          <a href="https://github.com" className='btn'  target='blank'> Github</a>
-          <a href="https:/dribbble.com/Alien_pixels" className='btn btn-primary' target='blank'> Live Demo</a>
-          </div>
-      </article>
-
-      <article className='portfolio_item'>
-        <div className="portfolio_item-image">
-        <img src={IMG5} alt="" />
-        </div>
-          <h3> This is a portfolio item title</h3>
-          <div className="portfolio_item-cta">
-          <a href="https://github.com" className='btn'  target='blank'> Github</a>
-          <a href="https:/dribbble.com/Alien_pixels" className='btn btn-primary' target='blank'> Live Demo</a>
-          </div>
-      </article>
-
-      <article className='portfolio_item'>
-        <div className="portfolio_item-image">
-        <img src={IMG6} alt="" />
-        </div>
-          <h3> This is a portfolio item title</h3>
-          <div className="portfolio_item-cta">
-          <a href="https://github.com" className='btn'  target='blank'> Github</a>
-          <a href="https:/dribbble.com/Alien_pixels" className='btn btn-primary' target='blank'> Live Demo</a>
-          </div>
-      </article> */}
-
       </div>
     </section>
   )

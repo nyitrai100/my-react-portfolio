@@ -1,6 +1,6 @@
 .portfolio_container{
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
 }
 
@@ -30,6 +30,13 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.description-margin-bottom{
+    margin-bottom: 1rem;    
 }
 
 
