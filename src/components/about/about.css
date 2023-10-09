@@ -10,6 +10,7 @@
     /* background: linear-gradient(45deg, transparent, #00FF00,transparent); */
     display: grid;
     place-items:center;
+    margin-bottom: 80px;
 }
 
 .about_me-image{
