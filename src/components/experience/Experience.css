@@ -71,3 +71,14 @@
             padding: 2rem 1rem;
         }
 }
+
+/* Media queries For small Devices */
+@media screen and (max-width: 360px) {
+    .experience_content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .experience_details{
+        margin: 10px;
+    }
+}
