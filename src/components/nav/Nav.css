@@ -40,11 +40,12 @@ nav a.active{
 .nav-title{
 
     display:flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     font-size: 0.9rem;
-    /* padding-left: 3px; */
 }
+
 
 
 /* Media queries For medium Devices */
@@ -61,16 +62,25 @@ nav a.active{
         justify-content: center;
         width: 80vw;
     }
-    /* .nav-title{
-        padding-left: -13px;
-    } */
 }
 /* Media queries For medium Devices */
 
-/* @media screen and (max-width: 615px) {
+@media screen and (max-width: 510px) {
     nav{
-        flex-direction: ;
-       
-       
+        flex-wrap: wrap;
+        width: 14vw;
+        position: fixed;
+        top:15px;
+        margin-left: -20px;
+        border-radius: 20px;
     }
-} */
+    nav a{
+        justify-content: flex-start;
+        width: 13vw;
+        border-radius: 18px;
+    }
+    .nav-title{
+        font-size: 8px;
+        
+    }
+}
