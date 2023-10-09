@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
+    margin-bottom: 30px;
 }
 
 .contact_options{
@@ -40,7 +41,9 @@
 form{
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     gap: 1.2rem;
+    margin-bottom: 20px;
 }
 
 input, textarea{
@@ -53,12 +56,20 @@ input, textarea{
     color: var(--color-white);
 }
 
+#contact{
+    margin-top: 50px;
+}
+
+
 
 /* Media queries For medium Devices */
 @media screen and (max-width: 1024px) {
         .container.contact_container{
             grid-template-columns: 1fr;
             gap: 2rem;
+        }
+        #contact{
+            margin-top: 100px;
         }
 }
 

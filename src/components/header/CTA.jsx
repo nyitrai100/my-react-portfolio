@@ -1,11 +1,19 @@
 import React from 'react'
-import CV from '../../assets/cv.pdf'
+import CV from '../../assets/CV.docx'
+import{BsLinkedin} from 'react-icons/bs'
+import{FaGithub} from 'react-icons/fa'
+
 
 const CTA= () => {
   return (
     <div className="cta">
+        <div className='download'>
         <a href={CV} download className='btn'>Download CV</a>
-        <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+        </div>
+        <div >
+        <a href="https://www.linkedin.com/in/bence-nyitrai-a5033425b/" target="_blank" className='links'> <BsLinkedin/> </a>
+        <a href="https://github.com/nyitrai100" target="_blank" className='links'> <FaGithub/> </a>
+        </div>
     </div>
   )
 }

@@ -71,7 +71,7 @@ const data = [
     id: 8,
     video: Video8,
     title: "My Previous Portfolio Website",
-    description: '',
+    description: 'I created this website with HTML, CSS, Javascript, PHP.',
     github: 'https://github.com/nyitrai100/portfolio-website',
     demo: 'https://tranquil-cannoli-742856.netlify.app'
   },

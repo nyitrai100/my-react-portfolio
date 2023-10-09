@@ -42,7 +42,7 @@ const About = () => {
                 </article>
               </div>
                 
-                <h4>Welcome!</h4>   
+                <h4 className='welcome'>Welcome!</h4>   
                 <p> My name is Bence Nyitrai,
                  I'am a Web programming with Cybersecurity student in University of Huddersfield UK.
                   <br/>I've been working in the several projects since i have started my educations.
@@ -51,7 +51,7 @@ const About = () => {
                     <br/>If you're interested in collaborating or just want to say hello, feel free to contact with me.
                       Thanks for visiting my portfolio, and I look forward to connecting with you soon!
                   </p>
-              <a href="#contact" className='btn btn-primary lets-talk'> Let's Talk</a>
+              {/* <a href="#contact" className='btn btn-primary lets-talk'> Let's Talk</a> */}
               
           </div>
       </div>

@@ -11,12 +11,13 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    /* --color-bg: #2C2C2C; */
+    background-image: url(./assets/bg-picture.jpg);
+    --color-bg-variant: black;
+    --color-primary: #00FF00;
+    --color-primary-variant: #00FF00;
     --color-white: #fff;
-    --color-light: rgba(255, 255, 255, 0.6);
+    --color-light: white;
 
     --transition: all 400ms ease;
 
@@ -38,14 +39,15 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png);
+    /* background-image: url(../src/assets/bg-texture.png); */
 }
 
 .main_container{
     margin: 3% 5% 2% 5%;
     padding-top: 0.2%;
     padding-bottom: 0.2%;
-    background-color: var(--color-bg-variant);
+    /* background-color: var(--color-bg-variant); */
+  background: linear-gradient(45deg, transparent, grey,transparent);;
     border-radius: 1%;
 }
 .container{
@@ -100,9 +102,9 @@ a:hover{
 }
 
 .btn:hover{
-    background: var(--color-white);
+    background: black;
     color: var(--color-bg);
-    border-color: transparent;
+    border-color: white;
 }
 
 .btn-primary {
