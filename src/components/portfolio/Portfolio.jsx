@@ -7,6 +7,7 @@ import Video4 from '../../assets/Scalculator.mp4'
 import Video5 from '../../assets/Sgame.mp4'
 import Video6 from '../../assets/drum-kit.mp4'
 import Video7 from '../../assets/QR.mp4'
+import Video8 from '../../assets/old-portfolio.mp4'
 
 
 const data = [
@@ -66,6 +67,14 @@ const data = [
     github: 'https://github.com/nyitrai100/Udemy/tree/main/web%20development/backend/2.4%20QR%20Code%20Project',
     demo: ''
   },
+  {
+    id: 8,
+    video: Video8,
+    title: "My Previous Portfolio Website",
+    description: '',
+    github: 'https://github.com/nyitrai100/portfolio-website',
+    demo: 'https://tranquil-cannoli-742856.netlify.app'
+  },
 ]
 
 const Portfolio = () => {
@@ -82,7 +91,7 @@ const Portfolio = () => {
             <video src={video} width={'100%'} alt={title} autoPlay loop muted />
             </div>
               <h3 className='title'> {title}</h3>
-              <p className='description-margin-bottom'> {description}</p>
+              {description &&<p className='description-margin-bottom'> {description}</p>}
               <div className="portfolio_item-cta">
               {github && <a href={github} className='btn'  target='blank'> Github</a>}
               {demo && <a href={demo} className='btn btn-primary' target='blank'> Live Demo</a>}

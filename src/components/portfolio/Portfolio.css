@@ -49,9 +49,16 @@
 }
 
 /* Media queries For small Devices */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .portfolio_container{
         grid-template-columns: 1fr;
+        gap:1rem
+    }
+}
+/* Media queries For extra small Devices */
+@media screen and (max-width: 340px) {
+    .portfolio_container{
+        grid-template-columns: 80vw;
         gap:1rem
     }
 }
