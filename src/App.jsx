@@ -48,8 +48,9 @@ const App = () => {
 
   return (
     <>
-    <Nav onNavClick={handleNavClick} />
+   
       <div className="main_container">
+      <Nav onNavClick={handleNavClick} />
       {activeComponent === 'home' && <Header />}
       {activeComponent === 'about' && <About />}
       {activeComponent === 'experience' && <Experience />}

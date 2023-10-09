@@ -43,25 +43,27 @@ const Nav = ({ onNavClick }) => {
   return (
     <nav>
       <a href="home" onClick={() => handleNavClick('#home')} className={activeNav === '#home' ? 'active' : ''}>
-        <AiOutlineHome />
+       
+        <p className="nav-title" style={{paddingLeft: '8px'}} > <AiOutlineHome  /> Home  </p>
       </a>
       <a href="#about" onClick={() => handleNavClick('#about')} className={activeNav === '#about' ? 'active' : ''}>
-        <AiOutlineUser />
+       <p className="nav-title" style={{paddingLeft: '8px'}} >  <AiOutlineUser /> About  </p>
       </a>
       <a href="#experience" onClick={() => handleNavClick('#experience')} className={activeNav === '#experience' ? 'active' : ''}>
-        <BiBook />
+        
+        <p className="nav-title" style={{paddingLeft: '13px'}} >  <BiBook />  Skills  </p>
       </a>
       <a href="#services" onClick={() => handleNavClick('#services')} className={activeNav === '#services' ? 'active' : ''}>
-        <RiServiceLine />
+        <p className="nav-title">  <RiServiceLine />  Services  </p>
       </a>
       <a href="#portfolio" onClick={() => handleNavClick('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}>
-       < LuGalleryThumbnails/>
+        <p className="nav-title"> < LuGalleryThumbnails/> Portfolio  </p>
       </a>
       {/* <a href="#testimonials" onClick={() => handleNavClick('#testimonials')} className={activeNav === '#testimonials' ? 'active' : ''}>
        test
       </a> */}
       <a href="#contact" onClick={() => handleNavClick('#contact')} className={activeNav === '#contact' ? 'active' : ''}>
-        <BiMessageSquareDetail />
+         <p className="nav-title"> <BiMessageSquareDetail /> Contact  </p>
       </a>
     </nav>
   );
