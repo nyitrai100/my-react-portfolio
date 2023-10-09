@@ -37,7 +37,7 @@ const Nav = ({ onNavClick }) => {
 
   const handleNavClick = (navId) => {
     setActiveNav(navId);
-    onNavClick(navId.substring(1)); // Removing '#' and passing the component name to the parent
+    onNavClick(navId.substring(1)); 
   };
 
   return (
