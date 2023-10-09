@@ -77,4 +77,13 @@ header{
     .header_socials, .scroll_down{
         display: none;
     }
+    .me{
+        display: none;
+    }
+    .header_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: -50px;
+    }
 }

@@ -39,15 +39,13 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    /* background-image: url(../src/assets/bg-texture.png); */
 }
 
 .main_container{
     margin: 3% 5% 2% 5%;
     padding-top: 0.2%;
     padding-bottom: 0.2%;
-    /* background-color: var(--color-bg-variant); */
-  background: linear-gradient(45deg, transparent, grey,transparent);;
+    background: linear-gradient(45deg, transparent, grey,transparent);;
     border-radius: 1%;
 }
 .container{
@@ -137,4 +135,7 @@ img{
     section > h2 {
         margin-top: 2rem;
     }
+    /* .main_container{
+        margin: 10px;
+    } */
 }
