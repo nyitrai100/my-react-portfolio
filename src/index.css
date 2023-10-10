@@ -139,3 +139,9 @@ img{
         margin: 10px;
     } */
 }
+
+@media screen and (min-height: 1200px) {
+    .main_container{
+        margin-top: 255px;
+    }
+}

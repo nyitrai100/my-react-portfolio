@@ -87,3 +87,9 @@ header{
         padding-top: -50px;
     }
 }
+
+@media screen and (min-height: 1200px) {
+    header{
+        height: 60vh;
+    }
+}
