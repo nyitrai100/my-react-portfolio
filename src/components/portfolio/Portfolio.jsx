@@ -10,6 +10,7 @@ import Video7 from '../../assets/QR.mp4'
 import Video8 from '../../assets/old-portfolio.mp4'
 
 
+
 const data = [
   {
     id: 1,
