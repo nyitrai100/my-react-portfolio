@@ -23,7 +23,7 @@ const data = [
     id: 2,
     video: Video2,
     title: "JS Calculator",
-    description: 'Compound Investment Calculator for Disruptivesocial.',
+    description: 'Compound Investment Calculator for Disruptive-social.',
     github: 'https://github.com/nyitrai100/investment-calc-master2/blob/main/index.html',
     demo: 'https://www.mascap.group'
   },
@@ -31,7 +31,7 @@ const data = [
     id: 3,
     video: Video3,
     title: "Real-estate website",
-    description: 'My first bigger project with University',
+    description: 'The initial significant project undertaken during my university journey',
     github: '',
     demo: ''
   },
@@ -39,7 +39,7 @@ const data = [
     id: 4,
     video: Video4,
     title: "Saving Calculator",
-    description: 'Calculator from my Ongoing Project',
+    description: 'Calculator from my On-going Project',
     github: 'https://github.com/nyitrai100/John-s-calculator',
     demo: ''
   },
