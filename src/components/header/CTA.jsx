@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/CV.docx'
+import CV from '../../assets/CV.pdf'
 import{BsLinkedin} from 'react-icons/bs'
 import{FaGithub} from 'react-icons/fa'
 
