@@ -15,6 +15,7 @@
 .portfolio_item:hover{
     border-color: var(--color-primary-variant);
     background: transparent;
+   
 }
 
 .portfolio_item-image{
@@ -38,7 +39,12 @@
 .description-margin-bottom{
     margin-bottom: 1rem;    
 }
-
+#text-black{
+    color: black;
+}
+#text-black:hover{
+    color: white;
+}
 
 /* Media queries For medium Devices */
 @media screen and (max-width: 1024px) {
