@@ -114,7 +114,6 @@ const Experience = () => {
                  </div>
             </article>
             <article className='experience_details'>
-                  <GrMysql className='experience_details-icon'/>
                  <div>
                  <h4>C#</h4>
                  </div>
