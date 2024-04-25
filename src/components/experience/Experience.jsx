@@ -82,6 +82,12 @@ const Experience = () => {
                   <h4>NextJS</h4>
                   </div>
             </article>
+            <article className='experience_details'>
+                  <TbBrandNextjs className='experience_details-icon'/>
+                  <div>
+                  <h4>C#</h4>
+                  </div>
+            </article>
         </div>
       </div>
 
