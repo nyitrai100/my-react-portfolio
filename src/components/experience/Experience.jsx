@@ -17,6 +17,7 @@ import{GrMysql} from 'react-icons/gr'
 import{SiMicrosoftexcel} from 'react-icons/si'
 import{FaImages} from 'react-icons/fa'
 import{FiPackage} from 'react-icons/fi'
+import { TbBrandCSharp } from "react-icons/tb";
 
 
 const Experience = () => {
@@ -114,6 +115,7 @@ const Experience = () => {
                  </div>
             </article>
             <article className='experience_details'>
+                  <TbBrandCSharp className='experience_details-icon' />
                  <div>
                  <h4>C#</h4>
                  </div>
