@@ -11,6 +11,7 @@ import Video8 from '../../assets/old-portfolio.mp4'
 
 
 
+
 const data = [
   {
     id: 1,
@@ -85,7 +86,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <div className='container portfolio_container '>
       {
-        data.map(({id, video, title, description, github, demo})=> {
+        data.map(({id, image, video, title, description, github, demo})=> {
           return(
             <article key={id} className='portfolio_item'>
             <div className="portfolio_item-image">
