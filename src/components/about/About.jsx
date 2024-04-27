@@ -46,7 +46,7 @@ const About = () => {
                 <p> My name is Bence Nyitrai,
                  I'am a Web programming with Cybersecurity student in University of Huddersfield UK.
                   <br/>I've been working in the several projects since i have started my educations.
-                   <br/>During that time, I've gained experience in Front-end development.
+                   <br/>During that time, I've gained experience in Front-end and Back-end development.
                     Through my projects work, I strive to perfection, and I'm always excited to take on new challenges and opportunities.
                     <br/>If you're interested in collaborating or just want to say hello, feel free to contact with me.
                       Thanks for visiting my portfolio, and I look forward to connecting with you soon!
