@@ -84,7 +84,6 @@ const Portfolio = () => {
     <section id='portfolio'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
-      <p>(My projects are not accurate anymore message me if you want to know about my newest projects)</p>
       <div className='container portfolio_container '>
       {
         data.map(({id, image, video, title, description, github, demo})=> {
