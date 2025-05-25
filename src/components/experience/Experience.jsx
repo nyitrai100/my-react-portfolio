@@ -101,12 +101,6 @@ const Experience = () => {
                  <h4>C#</h4>
                  </div>
             </article>
-            <article className='experience_details'>
-                  <TbBrandCSharp className='experience_details-icon' />
-                 <div>
-                 <h4>Azure</h4>
-                 </div>
-            </article>
         </div>
       </div>
 
