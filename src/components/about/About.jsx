@@ -32,7 +32,7 @@ const About = () => {
                 <article className='about_card'>
                     <FiUsers className='about_icon'/>
                     <h5>Year of Study</h5>
-                    <small> Second Year Student</small>
+                    <small> Final Year Student</small>
                 </article>
 
                 <article className='about_card'>
