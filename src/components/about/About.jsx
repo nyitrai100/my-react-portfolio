@@ -43,15 +43,14 @@ const About = () => {
               </div>
                 
                 <h4 className='welcome'>Welcome!</h4>   
-                <p> My name is Bence Nyitrai,
-                 I'am a Web programming with Cybersecurity student in University of Huddersfield UK.
-                  <br/>I've been working in the several projects since i have started my educations.
-                   <br/>During that time, I've gained experience in Front-end and Back-end development.
-                    Through my projects work, I strive to perfection, and I'm always excited to take on new challenges and opportunities.
-                    <br/>If you're interested in collaborating or just want to say hello, feel free to contact with me.
-                      Thanks for visiting my portfolio, and I look forward to connecting with you soon!
+                  <p> My name is Bence Nyitrai,  
+                      I’m a Web Programming with Cybersecurity student at the University of Huddersfield, UK.  
+                      <br/>I currently work as a Junior Software Developer at Cortex, based in the Channel Islands.  
+                      <br/>I've gained hands-on experience in both Front-end and Back-end development using C#, Blazor, JavaScript, and SQL.  
+                      I enjoy solving problems and continuously improving through real-world projects and teamwork.  
+                      <br/>If you're interested in connecting or have any questions, feel free to reach out.  
+                      Thanks for visiting my portfolio—I look forward to hearing from you!  
                   </p>
-              {/* <a href="#contact" className='btn btn-primary lets-talk'> Let's Talk</a> */}
               
           </div>
       </div>
