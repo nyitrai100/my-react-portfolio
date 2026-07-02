@@ -44,7 +44,7 @@ const About = () => {
                 
                 <h4 className='welcome'>Welcome!</h4>   
                   <p> My name is Bence Nyitrai,  
-                    My name is Bence Nyitrai, and I recently graduated with First Class Honours in Web Programming with Cybersecurity from the University of Huddersfield, UK. 
+                    I recently graduated with First Class Honours in Web Programming with Cybersecurity from the University of Huddersfield, UK. 
                     During my studies, I was awarded the Departmental Prize for the Best Web and Information Systems Student and the Best Overall Performance on the Final Year Project in Web and Information Systems. 
                     I have one year of professional experience as a Junior Software Developer at Cortex, based in the Channel Islands. 
                     Throughout my studies and professional career, I have gained hands-on experience in both front-end and back-end development using C#, Blazor, JavaScript, and SQL.
