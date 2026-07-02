@@ -11,7 +11,7 @@ const data = [
     id: 1,
     video: Video,
     title: "PDF-Reader",
-    description: 'Find pdf documents, which are includes a keyword',
+    description: 'Find pdf documents, which are include a keyword',
     github: 'https://github.com/nyitrai100/pdfReader',
     demo: ''
   },
@@ -19,7 +19,7 @@ const data = [
     id: 2,
     video: Video2,
     title: "Budapest-Weather-app",
-    description: 'Check Budapestweather forecast or even change locations.',
+    description: 'Check Budapest Weather forecast or even change locations.',
     github: 'https://github.com/nyitrai100/BudapestWeatherApp',
     demo: ''
   }
