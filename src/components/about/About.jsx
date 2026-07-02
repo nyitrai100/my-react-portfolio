@@ -31,8 +31,8 @@ const About = () => {
 
                 <article className='about_card'>
                     <FiUsers className='about_icon'/>
-                    <h5>Year of Study</h5>
-                    <small> Final Year Student</small>
+                    <h5>Graduated</h5>
+                    <small> First-Class degree with two awards</small>
                 </article>
 
                 <article className='about_card'>
